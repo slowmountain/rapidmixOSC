@@ -9,7 +9,7 @@ The default settings (port) are designed to match [Wekinator](http://www.wekinat
 
 **Author/contact**: panos.papiotis@upf.edu
 
-![rapidmixOSC GUI](gui.png)
+<img src="gui.png" width="300px"/>
 
 Setup
 -----
