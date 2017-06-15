@@ -27,7 +27,7 @@ def send(msg):
 @socketio.on('data', namespace='/osc')
 def ws_play(message):
     if message['data']:
-        msg = OSC.OSCMessage("/repovizz")
+        msg = OSC.OSCMessage("/rapidmix")
         msg += message['data']
         try:
             send(msg)
@@ -39,7 +39,7 @@ def ws_play(message):
 def ws_bulk(message):
     if message['data']:
         for row in message['data']:
-            msg = OSC.OSCMessage("/repovizz")
+            msg = OSC.OSCMessage("/rapidmix")
             msg += row
             try:
                 send(msg)

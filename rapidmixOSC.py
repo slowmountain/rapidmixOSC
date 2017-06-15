@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 """
-repoVizz OSC middleware
+rapidmix OSC middleware
 
-Carles F. Julià <carles.fernandez@upf.edu> 2016
+Panos Papiotis <panos.papiotis@upf.edu> 2017
 """
 
 from multiprocessing import Process, freeze_support, Queue
@@ -20,7 +20,7 @@ queue = Queue()
 
 def gui():
     root = Tk()
-    root.title("repoVizzOSC")
+    root.title("rapidmixOSC")
 
     def change_addr(*args):
         try:
